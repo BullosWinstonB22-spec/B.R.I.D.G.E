@@ -9,7 +9,7 @@ export default function Landing() {
   }, []);
 
   const s = data?.settings ?? {};
-  const hero = `${import.meta.env.VITE_API_URL ?? ""}/media/assets/hero1.jpg`;
+  const hero = "https://bridge-backend-per3.onrender.com/media/assets/hero1.jpg";
 
   return (
     <div>

@@ -3,7 +3,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: `${import.meta.env.VITE_API_URL ?? ""}/api`,
+  baseURL: "https://bridge-backend-per3.onrender.com/api",
   timeout: 15000,
 });
 

@@ -1,0 +1,9 @@
+# Real environment files are NEVER committed.
+*.env
+*.env.local
+serviceAccountKey.json
+
+# Keep templates and docs.
+!.gitignore
+!*.example
+!README.md

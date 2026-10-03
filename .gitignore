@@ -1,0 +1,32 @@
+# ---- Python / Django ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/staticfiles/
+backend/media/
+*.sqlite3
+db.sqlite3
+.env/*
+!.env/*.example
+!.env/README.md
+!.env/.gitignore
+
+# ---- Node / Frontend / Functions ----
+node_modules/
+dist/
+dist-ssr/
+*.local
+functions/lib/
+.firebase/
+firebase-debug.log
+.firebaserc
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

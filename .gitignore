@@ -8,10 +8,6 @@ backend/staticfiles/
 backend/media/
 *.sqlite3
 db.sqlite3
-# TEMPORARY: allow the data import helper + fixture to be committed.
-# Remove these two lines after the live import is finished.
-!backend/import_data.py
-!backend/data_export.json
 .env/*
 !.env/*.example
 !.env/README.md

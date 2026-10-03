@@ -1,0 +1,5171 @@
+[
+{
+  "model": "bms.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Lva9ddSQalNZuagY02rYtT$J5/2cG/m4naeNHcXu+rBHX/OS/behXU+zAc69KruPfk=",
+    "last_login": "2026-09-30T05:25:31.528Z",
+    "is_superuser": false,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-29T23:43:17.908Z",
+    "role": "admin",
+    "name": "System Administrator",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "System Administrator",
+    "department": "Administration",
+    "contact_number": "0917-000-0000",
+    "resident_record": null,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "pbkdf2_sha256$240000$b50b7cff0a774a48e67908936d73044a$7c4bbddf5db2272f3f69070845bebaddd1d0546fe88ed697800fed4d34fcfb52",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 2,
+  "fields": {
+    "password": "!rHIomvjKCPHtrdSAWvxKlnDmjb0xUZAe8354uhXE",
+    "last_login": "2026-09-30T04:23:56.581Z",
+    "is_superuser": false,
+    "username": "staff",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-29T23:43:17.908Z",
+    "role": "staff",
+    "name": "Maria Clara Santos",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "Barangay Staff Officer",
+    "department": "Operations & Public Service",
+    "contact_number": "0918-123-4567",
+    "resident_record": null,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "pbkdf2_sha256$240000$9cd987903045e670ae34244ae22ea99d$b2a48b124ae657f13648dcdababd5a47eff562ba090737aa82a4fbeed2773ce9",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 3,
+  "fields": {
+    "password": "!fzqGmzmuRZhyKuq14InCyIFKrZIQ1db4qYEWs5LJ",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "staff2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-29T23:43:17.908Z",
+    "role": "staff",
+    "name": "Juan Dela Cruz",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "Community Welfare Officer",
+    "department": "Social Services & Welfare",
+    "contact_number": "0918-234-5678",
+    "resident_record": null,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "pbkdf2_sha256$240000$64a28673b95c57972ec7434afb746059$f27fbbca774b2e8e1aa46837cf29bc140a9721bc3ca083654ffe98640af028f1",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 4,
+  "fields": {
+    "password": "!8Eo5zSVoa7jDS6xMWcN6eQRuJxEzHIIcz6ahRUfS",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "staff3",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-29T23:43:17.908Z",
+    "role": "staff",
+    "name": "Liza Reyes",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "Administrative & Records Assistant",
+    "department": "Secretariat & Records",
+    "contact_number": "0918-345-6789",
+    "resident_record": null,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "pbkdf2_sha256$240000$7a52be16318120504597fd0aa2d70ba8$0c44de1e41559840ed2896741dea6ab7b16bc97793598f867f44ed6764360b64",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 5,
+  "fields": {
+    "password": "!cEI4mrRfOcuc8wIn7ufGez6xaqltt8dqZfDhtfNP",
+    "last_login": "2026-09-30T05:25:31.207Z",
+    "is_superuser": false,
+    "username": "resident",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-29T23:43:17.908Z",
+    "role": "resident",
+    "name": "Juan A. Dela Cruz",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "Resident Citizen",
+    "department": "Community Member",
+    "contact_number": "0919-000-0000",
+    "resident_record": 1,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "pbkdf2_sha256$240000$ef1ef29b9db9a0f609386bc0871344e2$8f29513f4be54f4f4c1ca3e688c94b6e73c03fce07b6626e4e3e351ba590b737",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 6,
+  "fields": {
+    "password": "!hfhuh1LclHvdzrHqKDPSvwEgGZNXC2DkNsVFKQU4",
+    "last_login": "2026-09-30T04:24:10.506Z",
+    "is_superuser": false,
+    "username": "punong_barangay",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-29T23:43:17.908Z",
+    "role": "punong_barangay",
+    "name": "Punong Barangay",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "Punong Barangay",
+    "department": "Executive Leadership",
+    "contact_number": "0917-888-0001",
+    "resident_record": null,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "pbkdf2_sha256$240000$5aaf75e73250e662b6a81ac53e42a9ed$9e203d605ce1153ca2814bebffa210a606425ddab1b37cda93f104e6bd01dc69",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 7,
+  "fields": {
+    "password": "!IUanAFZphu97sy8UV4HmGF4UMBPJmgQV4tHp8fwG",
+    "last_login": "2026-09-30T02:29:44.309Z",
+    "is_superuser": false,
+    "username": "maria_4d0d07",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-30T02:29:43.776Z",
+    "role": "resident",
+    "name": "Maria Santos_4d0d07",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "",
+    "department": "",
+    "contact_number": "",
+    "resident_record": 12,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "pbkdf2_sha256$240000$c72f2d1496e47af45123a70b6b396c2f$30f9b4c35adb3058173dc14f1adc836fc216921343ba68aa7542eef5383bbf3d",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 8,
+  "fields": {
+    "password": "!f1bGDgAv7g0nd8m7jCAmYp6gAEEWttC09QCJvX6b",
+    "last_login": "2026-09-30T05:25:28.431Z",
+    "is_superuser": false,
+    "username": "maria_aba239",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-30T05:25:27.760Z",
+    "role": "resident",
+    "name": "Maria Santos_aba239",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "",
+    "department": "",
+    "contact_number": "",
+    "resident_record": 15,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "pbkdf2_sha256$240000$5f0fc17ecbb594c79ef0db6e16cce366$e0ddde1764512983d163f087e5939fa5f1ac8fc275f63ecd4ec99e78f2d8c504",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$XKQe2Wojz47TU6kJSKoZzl$Eq1ksdd1kU2yau/YYWmWWcENI9kcuu63WAP/EpsV2Eo=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "E-BRIDGES2026",
+    "first_name": "",
+    "last_name": "",
+    "email": "bullosxd69@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-03T07:20:42.009Z",
+    "role": "resident",
+    "name": "E-BRIDGES2026",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "",
+    "department": "",
+    "contact_number": "",
+    "resident_record": null,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$2198FpH0vqlbr5zckYhAEg$Vn0DFFAop4gTTwdzP1bKZnY8rNmQcvr8FvtnUikD3p0=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "BullosWinstonB22",
+    "first_name": "",
+    "last_name": "",
+    "email": "bullosxd69@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-03T08:05:51.712Z",
+    "role": "resident",
+    "name": "BullosWinstonB22",
+    "account_status": "active",
+    "email_verified_at": null,
+    "google_verified": false,
+    "google_subject_id": "",
+    "google_email": "",
+    "google_verified_at": null,
+    "last_login_at": null,
+    "profile_image": "",
+    "position": "",
+    "department": "",
+    "contact_number": "",
+    "resident_record": null,
+    "handler": null,
+    "handler_assigned_at": null,
+    "handler_assigned_by": null,
+    "archived_at": null,
+    "archived_by": null,
+    "archive_reason": "",
+    "created_by": null,
+    "updated_by": null,
+    "old_password_hash": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 1,
+  "fields": {
+    "resident_id": "BRGY-2026-000001",
+    "household_no": "HH-0001",
+    "last_name": "Dela Cruz",
+    "first_name": "Juan",
+    "middle_name": "Aquino",
+    "birth_date": "1995-01-01",
+    "gender": "Male",
+    "civil_status": "Single",
+    "address": "Purok 1, Main Street",
+    "contact": "09171234567",
+    "voter": "Yes",
+    "classification": "Senior Citizen",
+    "owner_user": 5,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.554Z",
+    "updated_at": "2026-10-03T03:29:51.554Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 2,
+  "fields": {
+    "resident_id": "BRGY-2026-000002",
+    "household_no": "HH-0002",
+    "last_name": "Santos",
+    "first_name": "Maria Clara",
+    "middle_name": "Reyes",
+    "birth_date": "1992-05-12",
+    "gender": "Female",
+    "civil_status": "Single",
+    "address": "Purok 2, Rizal Avenue",
+    "contact": "09181234567",
+    "voter": "Yes",
+    "classification": "PWD",
+    "owner_user": null,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.594Z",
+    "updated_at": "2026-10-03T03:29:51.594Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 3,
+  "fields": {
+    "resident_id": "BRGY-2026-000003",
+    "household_no": "HH-0003",
+    "last_name": "Cruz",
+    "first_name": "Pedro",
+    "middle_name": "Bautista",
+    "birth_date": "1988-11-20",
+    "gender": "Male",
+    "civil_status": "Widowed",
+    "address": "Purok 3, Mabini Street",
+    "contact": "09191234567",
+    "voter": "Yes",
+    "classification": "Solo Parent",
+    "owner_user": null,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.630Z",
+    "updated_at": "2026-10-03T03:29:51.630Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 4,
+  "fields": {
+    "resident_id": "BRGY-2026-000004",
+    "household_no": "HH-0004",
+    "last_name": "Reyes",
+    "first_name": "Ana",
+    "middle_name": "Santos",
+    "birth_date": "2004-08-15",
+    "gender": "Female",
+    "civil_status": "Single",
+    "address": "Purok 4, Bonifacio Street",
+    "contact": "09201234567",
+    "voter": "No",
+    "classification": "Student",
+    "owner_user": null,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.669Z",
+    "updated_at": "2026-10-03T03:29:51.669Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 5,
+  "fields": {
+    "resident_id": "BRGY-2026-000005",
+    "household_no": "HH-0005",
+    "last_name": "Garcia",
+    "first_name": "Carlos",
+    "middle_name": "Mendoza",
+    "birth_date": "1985-03-30",
+    "gender": "Male",
+    "civil_status": "Married",
+    "address": "Purok 5, Luna Street",
+    "contact": "09211234567",
+    "voter": "Yes",
+    "classification": "Regular Resident",
+    "owner_user": null,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.714Z",
+    "updated_at": "2026-10-03T03:29:51.714Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 6,
+  "fields": {
+    "resident_id": "BRGY-2026-000006",
+    "household_no": "TEST-01",
+    "last_name": "AcceptanceTest",
+    "first_name": "Edited6751e8",
+    "middle_name": "",
+    "birth_date": "1990-06-15",
+    "gender": "Male",
+    "civil_status": "Single",
+    "address": "123 Test Street",
+    "contact": "09001234567",
+    "voter": "Yes",
+    "classification": "Unclassified",
+    "owner_user": null,
+    "archived_at": "2026-09-30T00:49:48.317Z",
+    "resident_status": "ARCHIVED",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.753Z",
+    "updated_at": "2026-10-03T03:29:51.753Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 7,
+  "fields": {
+    "resident_id": "BRGY-2026-000007",
+    "household_no": "TEST-01",
+    "last_name": "AcceptanceTest",
+    "first_name": "Edited9a05b6",
+    "middle_name": "",
+    "birth_date": "1990-06-15",
+    "gender": "Male",
+    "civil_status": "Single",
+    "address": "123 Test Street",
+    "contact": "09001234567",
+    "voter": "Yes",
+    "classification": "Unclassified",
+    "owner_user": null,
+    "archived_at": "2026-09-30T02:26:57.947Z",
+    "resident_status": "ARCHIVED",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.794Z",
+    "updated_at": "2026-10-03T03:29:51.794Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 8,
+  "fields": {
+    "resident_id": "BRGY-2026-000008",
+    "household_no": "1",
+    "last_name": "Test",
+    "first_name": "Jonathan",
+    "middle_name": "",
+    "birth_date": "2000-01-01",
+    "gender": "Male",
+    "civil_status": "Single",
+    "address": "123 Street",
+    "contact": "1234567890",
+    "voter": "Yes",
+    "classification": "Unclassified",
+    "owner_user": null,
+    "archived_at": "2026-09-30T02:26:59.372Z",
+    "resident_status": "ARCHIVED",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.835Z",
+    "updated_at": "2026-10-03T03:29:51.836Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 9,
+  "fields": {
+    "resident_id": "BRGY-2026-000009",
+    "household_no": "TEST-01",
+    "last_name": "AcceptanceTest",
+    "first_name": "Edited81b115",
+    "middle_name": "",
+    "birth_date": "1990-06-15",
+    "gender": "Male",
+    "civil_status": "Single",
+    "address": "123 Test Street",
+    "contact": "09001234567",
+    "voter": "Yes",
+    "classification": "Unclassified",
+    "owner_user": null,
+    "archived_at": "2026-09-30T02:27:10.109Z",
+    "resident_status": "ARCHIVED",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.873Z",
+    "updated_at": "2026-10-03T03:29:51.873Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 10,
+  "fields": {
+    "resident_id": "BRGY-2026-000010",
+    "household_no": "1",
+    "last_name": "Test",
+    "first_name": "Jonathan",
+    "middle_name": "",
+    "birth_date": "2000-01-01",
+    "gender": "Male",
+    "civil_status": "Single",
+    "address": "123 Street",
+    "contact": "1234567890",
+    "voter": "Yes",
+    "classification": "Unclassified",
+    "owner_user": null,
+    "archived_at": "2026-09-30T02:27:10.876Z",
+    "resident_status": "ARCHIVED",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.912Z",
+    "updated_at": "2026-10-03T03:29:51.912Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 11,
+  "fields": {
+    "resident_id": "BRGY-2026-000011",
+    "household_no": "TEST-01",
+    "last_name": "AcceptanceTest",
+    "first_name": "Editedd98019",
+    "middle_name": "",
+    "birth_date": "1990-06-15",
+    "gender": "Male",
+    "civil_status": "Single",
+    "address": "123 Test Street",
+    "contact": "09001234567",
+    "voter": "Yes",
+    "classification": "Unclassified",
+    "owner_user": null,
+    "archived_at": "2026-09-30T02:28:43.702Z",
+    "resident_status": "ARCHIVED",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.949Z",
+    "updated_at": "2026-10-03T03:29:51.949Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 12,
+  "fields": {
+    "resident_id": "BRGY-2026-000012",
+    "household_no": "HH-4d0d07",
+    "last_name": "Santos_4d0d07",
+    "first_name": "Maria",
+    "middle_name": "Clara",
+    "birth_date": "1992-05-12",
+    "gender": "Female",
+    "civil_status": "Single",
+    "address": "Purok 2, Rizal Avenue",
+    "contact": "09184d0d07",
+    "voter": "Yes",
+    "classification": "Senior Citizen",
+    "owner_user": 7,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:51.988Z",
+    "updated_at": "2026-10-03T03:29:51.988Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 13,
+  "fields": {
+    "resident_id": "BRGY-2026-000013",
+    "household_no": "HH-b8bf7f",
+    "last_name": "Cruz_b8bf7f",
+    "first_name": "Pedro",
+    "middle_name": "",
+    "birth_date": "1988-11-20",
+    "gender": "Male",
+    "civil_status": "Widowed",
+    "address": "Purok 3, Mabini Street",
+    "contact": "0919b8bf7f",
+    "voter": "Yes",
+    "classification": "Solo Parent",
+    "owner_user": null,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:52.027Z",
+    "updated_at": "2026-10-03T03:29:52.027Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 14,
+  "fields": {
+    "resident_id": "BRGY-2026-000014",
+    "household_no": "1",
+    "last_name": "Test",
+    "first_name": "Jonathan",
+    "middle_name": "",
+    "birth_date": "2000-01-01",
+    "gender": "Male",
+    "civil_status": "Single",
+    "address": "123 Street",
+    "contact": "1234567890",
+    "voter": "Yes",
+    "classification": "Unclassified",
+    "owner_user": null,
+    "archived_at": "2026-09-30T02:30:12.333Z",
+    "resident_status": "ARCHIVED",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:52.066Z",
+    "updated_at": "2026-10-03T03:29:52.066Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 15,
+  "fields": {
+    "resident_id": "BRGY-2026-000018",
+    "household_no": "HH-aba239",
+    "last_name": "Santos_aba239",
+    "first_name": "Maria",
+    "middle_name": "Clara",
+    "birth_date": "1992-05-12",
+    "gender": "Female",
+    "civil_status": "Single",
+    "address": "Purok 2, Rizal Avenue",
+    "contact": "0918aba239",
+    "voter": "Yes",
+    "classification": "Senior Citizen",
+    "owner_user": 8,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:52.107Z",
+    "updated_at": "2026-10-03T03:29:52.107Z"
+  }
+},
+{
+  "model": "bms.resident",
+  "pk": 16,
+  "fields": {
+    "resident_id": "BRGY-2026-000019",
+    "household_no": "HH-cb0c94",
+    "last_name": "Cruz_cb0c94",
+    "first_name": "Pedro",
+    "middle_name": "",
+    "birth_date": "1988-11-20",
+    "gender": "Male",
+    "civil_status": "Widowed",
+    "address": "Purok 3, Mabini Street",
+    "contact": "0919cb0c94",
+    "voter": "Yes",
+    "classification": "Solo Parent",
+    "owner_user": null,
+    "archived_at": null,
+    "resident_status": "ACTIVE",
+    "profile_image": "",
+    "created_at": "2026-10-03T03:29:52.150Z",
+    "updated_at": "2026-10-03T03:29:52.150Z"
+  }
+},
+{
+  "model": "bms.residentidsequence",
+  "pk": 1,
+  "fields": {
+    "sequence_year": 2026,
+    "prefix": "BRGY",
+    "next_number": 20
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 1,
+  "fields": {
+    "resident": 1,
+    "resident_id_text": "BRGY-2026-000001",
+    "issuance_number": "CARD-2026-000001",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.335Z",
+    "updated_at": "2026-10-03T03:29:52.335Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 2,
+  "fields": {
+    "resident": 2,
+    "resident_id_text": "BRGY-2026-000002",
+    "issuance_number": "CARD-2026-000002",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.374Z",
+    "updated_at": "2026-10-03T03:29:52.374Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 3,
+  "fields": {
+    "resident": 3,
+    "resident_id_text": "BRGY-2026-000003",
+    "issuance_number": "CARD-2026-000003",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.411Z",
+    "updated_at": "2026-10-03T03:29:52.411Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 4,
+  "fields": {
+    "resident": 4,
+    "resident_id_text": "BRGY-2026-000004",
+    "issuance_number": "CARD-2026-000004",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.447Z",
+    "updated_at": "2026-10-03T03:29:52.447Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 5,
+  "fields": {
+    "resident": 5,
+    "resident_id_text": "BRGY-2026-000005",
+    "issuance_number": "CARD-2026-000005",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.481Z",
+    "updated_at": "2026-10-03T03:29:52.481Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 6,
+  "fields": {
+    "resident": 6,
+    "resident_id_text": "BRGY-2026-000006",
+    "issuance_number": "CARD-2026-000006",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.517Z",
+    "updated_at": "2026-10-03T03:29:52.517Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 7,
+  "fields": {
+    "resident": 7,
+    "resident_id_text": "BRGY-2026-000007",
+    "issuance_number": "CARD-2026-000007",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.552Z",
+    "updated_at": "2026-10-03T03:29:52.552Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 8,
+  "fields": {
+    "resident": 8,
+    "resident_id_text": "BRGY-2026-000008",
+    "issuance_number": "CARD-2026-000008",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.588Z",
+    "updated_at": "2026-10-03T03:29:52.588Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 9,
+  "fields": {
+    "resident": 9,
+    "resident_id_text": "BRGY-2026-000009",
+    "issuance_number": "CARD-2026-000009",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.622Z",
+    "updated_at": "2026-10-03T03:29:52.622Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 10,
+  "fields": {
+    "resident": 10,
+    "resident_id_text": "BRGY-2026-000010",
+    "issuance_number": "CARD-2026-000010",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.659Z",
+    "updated_at": "2026-10-03T03:29:52.659Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 11,
+  "fields": {
+    "resident": 11,
+    "resident_id_text": "BRGY-2026-000011",
+    "issuance_number": "CARD-2026-000011",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.694Z",
+    "updated_at": "2026-10-03T03:29:52.694Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 12,
+  "fields": {
+    "resident": 12,
+    "resident_id_text": "BRGY-2026-000012",
+    "issuance_number": "CARD-2026-000012",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.730Z",
+    "updated_at": "2026-10-03T03:29:52.730Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 13,
+  "fields": {
+    "resident": 13,
+    "resident_id_text": "BRGY-2026-000013",
+    "issuance_number": "CARD-2026-000013",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.766Z",
+    "updated_at": "2026-10-03T03:29:52.766Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 14,
+  "fields": {
+    "resident": 14,
+    "resident_id_text": "BRGY-2026-000014",
+    "issuance_number": "CARD-2026-000014",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.802Z",
+    "updated_at": "2026-10-03T03:29:52.802Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 15,
+  "fields": {
+    "resident": 15,
+    "resident_id_text": "BRGY-2026-000018",
+    "issuance_number": "CARD-2026-000018",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.837Z",
+    "updated_at": "2026-10-03T03:29:52.837Z"
+  }
+},
+{
+  "model": "bms.residentidissuance",
+  "pk": 16,
+  "fields": {
+    "resident": 16,
+    "resident_id_text": "BRGY-2026-000019",
+    "issuance_number": "CARD-2026-000019",
+    "status": "Assigned",
+    "issued_at": null,
+    "issued_by": "",
+    "remarks": "",
+    "created_at": "2026-10-03T03:29:52.880Z",
+    "updated_at": "2026-10-03T03:29:52.880Z"
+  }
+},
+{
+  "model": "bms.barangayofficial",
+  "pk": 1,
+  "fields": {
+    "first_name": "Barangay",
+    "middle_name": "",
+    "last_name": "Official",
+    "suffix": "",
+    "position": "Punong Barangay",
+    "bio": "Official profile pending administrator configuration.",
+    "contact_info": "",
+    "profile_image": "",
+    "display_order": 1,
+    "is_visible": false,
+    "status": "ACTIVE",
+    "created_at": "2026-10-03T03:31:32.431Z",
+    "updated_at": "2026-10-03T03:31:32.431Z",
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.barangayofficial",
+  "pk": 2,
+  "fields": {
+    "first_name": "Maria",
+    "middle_name": "Santos",
+    "last_name": "Reyes",
+    "suffix": "",
+    "position": "Barangay Kagawad",
+    "bio": "Chairperson on Peace & Order and Public Safety.",
+    "contact_info": "reyes@barangaypoblacion.gov.ph",
+    "profile_image": "",
+    "display_order": 2,
+    "is_visible": true,
+    "status": "ACTIVE",
+    "created_at": "2026-10-03T03:31:32.468Z",
+    "updated_at": "2026-10-03T03:31:32.468Z",
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.barangayofficial",
+  "pk": 3,
+  "fields": {
+    "first_name": "Jose",
+    "middle_name": "P.",
+    "last_name": "Bautista",
+    "suffix": "Jr.",
+    "position": "Barangay Secretary",
+    "bio": "Managing official records, certifications, and municipal administrative liaison.",
+    "contact_info": "secretary@barangaypoblacion.gov.ph",
+    "profile_image": "",
+    "display_order": 3,
+    "is_visible": true,
+    "status": "ACTIVE",
+    "created_at": "2026-10-03T03:31:32.503Z",
+    "updated_at": "2026-10-03T03:31:32.503Z",
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.request",
+  "pk": 1,
+  "fields": {
+    "request_id": "REQ-2026-A0366643",
+    "owner_user": 7,
+    "resident": 12,
+    "type": "Barangay Clearance",
+    "purpose": "Employment",
+    "category": "",
+    "status": "completed",
+    "date_needed": "2026-09-01",
+    "remarks": "",
+    "processed_at": "2026-09-30T02:29:44.576Z",
+    "approved_at": "2026-09-30T02:29:44.576Z",
+    "approved_by": 1,
+    "payload": {
+      "event": "cert:requested",
+      "type": "Barangay Clearance",
+      "purpose": "Employment",
+      "dateNeeded": "2026-09-01",
+      "classification": "Senior Citizen",
+      "resident": "Maria Santos_4d0d07",
+      "residentId": "BRGY-2026-000012",
+      "address": "Purok 2, Rizal Avenue",
+      "requestId": "REQ-2026-A0366643"
+    },
+    "created_at": "2026-10-03T03:31:32.562Z",
+    "updated_at": "2026-10-03T03:31:32.562Z"
+  }
+},
+{
+  "model": "bms.request",
+  "pk": 2,
+  "fields": {
+    "request_id": "REQ-2026-916BEE79",
+    "owner_user": 8,
+    "resident": 15,
+    "type": "Barangay Clearance",
+    "purpose": "Employment",
+    "category": "",
+    "status": "completed",
+    "date_needed": "2026-09-01",
+    "remarks": "",
+    "processed_at": "2026-09-30T05:25:28.557Z",
+    "approved_at": "2026-09-30T05:25:28.557Z",
+    "approved_by": 1,
+    "payload": {
+      "event": "cert:requested",
+      "type": "Barangay Clearance",
+      "purpose": "Employment",
+      "dateNeeded": "2026-09-01",
+      "classification": "Senior Citizen",
+      "resident": "Maria Santos_aba239",
+      "residentId": "BRGY-2026-000018",
+      "address": "Purok 2, Rizal Avenue",
+      "requestId": "REQ-2026-916BEE79"
+    },
+    "created_at": "2026-10-03T03:31:32.600Z",
+    "updated_at": "2026-10-03T03:31:32.600Z"
+  }
+},
+{
+  "model": "bms.certificateissuance",
+  "pk": 1,
+  "fields": {
+    "cert_no": "CERT-39D6B9",
+    "request": 1,
+    "issued_by": 1,
+    "payload": {
+      "event": "cert:issued",
+      "requestId": "REQ-2026-A0366643",
+      "certNo": "CERT-39D6B9",
+      "type": "Barangay Clearance",
+      "purpose": "Employment",
+      "dateIssued": "2026-08-26",
+      "resident": "Maria Santos_4d0d07",
+      "classification": "Senior Citizen",
+      "address": "Purok 2, Rizal Avenue"
+    },
+    "created_at": "2026-10-03T03:31:32.644Z"
+  }
+},
+{
+  "model": "bms.certificateissuance",
+  "pk": 2,
+  "fields": {
+    "cert_no": "CERT-90B287",
+    "request": 2,
+    "issued_by": 1,
+    "payload": {
+      "event": "cert:issued",
+      "requestId": "REQ-2026-916BEE79",
+      "certNo": "CERT-90B287",
+      "type": "Barangay Clearance",
+      "purpose": "Employment",
+      "dateIssued": "2026-08-26",
+      "resident": "Maria Santos_aba239",
+      "classification": "Senior Citizen",
+      "address": "Purok 2, Rizal Avenue"
+    },
+    "created_at": "2026-10-03T03:31:32.683Z"
+  }
+},
+{
+  "model": "bms.task",
+  "pk": 1,
+  "fields": {
+    "task_id": "TASK-2026-0001-DB66",
+    "title": "TC-06 Automated Test Command",
+    "task_type": "General Assignment",
+    "priority": "HIGH",
+    "due_date": "2026-10-02",
+    "due_time": "17:00",
+    "status": "COMPLETED",
+    "assigned_to": 2,
+    "description": "This is an automated test command. Process all test documents.",
+    "created_by": 6,
+    "completion_date": "2026-09-30T02:27:00.313Z",
+    "completion_notes": "TC-10: Automated test task completed successfully.",
+    "related_record": "",
+    "progress_percent": 100,
+    "acknowledged_at": "2026-09-30T02:27:00.279Z",
+    "payload": {
+      "title": "TC-06 Automated Test Command",
+      "description": "This is an automated test command. Process all test documents.",
+      "priority": "HIGH",
+      "assignedTo": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:32.730Z",
+    "updated_at": "2026-10-03T03:31:32.730Z"
+  }
+},
+{
+  "model": "bms.task",
+  "pk": 2,
+  "fields": {
+    "task_id": "TASK-2026-0002-6BB5",
+    "title": "TC-11 Automated Overdue Command",
+    "task_type": "General Assignment",
+    "priority": "HIGH",
+    "due_date": "2026-09-28",
+    "due_time": "00:00",
+    "status": "OVERDUE",
+    "assigned_to": 2,
+    "description": "This task has a past deadline for overdue detection testing.",
+    "created_by": 6,
+    "completion_date": null,
+    "completion_notes": "",
+    "related_record": "",
+    "progress_percent": 0,
+    "acknowledged_at": null,
+    "payload": {
+      "title": "TC-11 Automated Overdue Command",
+      "description": "This task has a past deadline for overdue detection testing.",
+      "priority": "HIGH",
+      "assignedTo": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:32.766Z",
+    "updated_at": "2026-10-03T03:31:32.766Z"
+  }
+},
+{
+  "model": "bms.task",
+  "pk": 3,
+  "fields": {
+    "task_id": "TASK-2026-0003-CC3E",
+    "title": "TC-06 Automated Test Command",
+    "task_type": "General Assignment",
+    "priority": "HIGH",
+    "due_date": "2026-10-02",
+    "due_time": "17:00",
+    "status": "COMPLETED",
+    "assigned_to": 2,
+    "description": "This is an automated test command. Process all test documents.",
+    "created_by": 6,
+    "completion_date": "2026-09-30T02:27:11.609Z",
+    "completion_notes": "TC-10: Automated test task completed successfully.",
+    "related_record": "",
+    "progress_percent": 100,
+    "acknowledged_at": "2026-09-30T02:27:11.593Z",
+    "payload": {
+      "title": "TC-06 Automated Test Command",
+      "description": "This is an automated test command. Process all test documents.",
+      "priority": "HIGH",
+      "assignedTo": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:32.804Z",
+    "updated_at": "2026-10-03T03:31:32.804Z"
+  }
+},
+{
+  "model": "bms.task",
+  "pk": 4,
+  "fields": {
+    "task_id": "TASK-2026-0004-4C1F",
+    "title": "TC-11 Automated Overdue Command",
+    "task_type": "General Assignment",
+    "priority": "HIGH",
+    "due_date": "2026-09-28",
+    "due_time": "00:00",
+    "status": "OVERDUE",
+    "assigned_to": 2,
+    "description": "This task has a past deadline for overdue detection testing.",
+    "created_by": 6,
+    "completion_date": null,
+    "completion_notes": "",
+    "related_record": "",
+    "progress_percent": 0,
+    "acknowledged_at": null,
+    "payload": {
+      "title": "TC-11 Automated Overdue Command",
+      "description": "This task has a past deadline for overdue detection testing.",
+      "priority": "HIGH",
+      "assignedTo": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:32.845Z",
+    "updated_at": "2026-10-03T03:31:32.845Z"
+  }
+},
+{
+  "model": "bms.task",
+  "pk": 5,
+  "fields": {
+    "task_id": "TASK-2026-0005-9797",
+    "title": "Inspect Drainage Sector 4",
+    "task_type": "General Assignment",
+    "priority": "HIGH",
+    "due_date": "2026-09-30",
+    "due_time": "17:00",
+    "status": "COMPLETED",
+    "assigned_to": 2,
+    "description": "Inspect drainage blockage reported along Sector 4.",
+    "created_by": 6,
+    "completion_date": "2026-09-30T02:29:30.628Z",
+    "completion_notes": "Culvert fully cleared. Water flow restored normal.",
+    "related_record": "",
+    "progress_percent": 100,
+    "acknowledged_at": "2026-09-30T02:29:30.594Z",
+    "payload": {
+      "title": "Inspect Drainage Sector 4",
+      "description": "Inspect drainage blockage reported along Sector 4.",
+      "priority": "HIGH",
+      "assignedTo": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:32.881Z",
+    "updated_at": "2026-10-03T03:31:32.881Z"
+  }
+},
+{
+  "model": "bms.task",
+  "pk": 6,
+  "fields": {
+    "task_id": "TASK-2026-0006-F455",
+    "title": "Old Inspection Task",
+    "task_type": "General Assignment",
+    "priority": "NORMAL",
+    "due_date": "2026-09-27",
+    "due_time": "12:00",
+    "status": "OVERDUE",
+    "assigned_to": 2,
+    "description": "Task that was due 2 days ago.",
+    "created_by": 6,
+    "completion_date": null,
+    "completion_notes": "",
+    "related_record": "",
+    "progress_percent": 0,
+    "acknowledged_at": null,
+    "payload": {
+      "title": "Old Inspection Task",
+      "description": "Task that was due 2 days ago.",
+      "priority": "NORMAL",
+      "assignedTo": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:32.919Z",
+    "updated_at": "2026-10-03T03:31:32.919Z"
+  }
+},
+{
+  "model": "bms.taskassignment",
+  "pk": 1,
+  "fields": {
+    "task": 1,
+    "staff": 2,
+    "status": "COMPLETED",
+    "assigned_at": "2026-09-30T02:27:00.263Z",
+    "acknowledged_at": "2026-09-30T02:27:00.279Z",
+    "completed_at": "2026-09-30T02:27:00.313Z",
+    "completion_notes": "TC-10: Automated test task completed successfully."
+  }
+},
+{
+  "model": "bms.taskassignment",
+  "pk": 2,
+  "fields": {
+    "task": 2,
+    "staff": 2,
+    "status": "OVERDUE",
+    "assigned_at": "2026-09-30T02:27:00.328Z",
+    "acknowledged_at": null,
+    "completed_at": null,
+    "completion_notes": ""
+  }
+},
+{
+  "model": "bms.taskassignment",
+  "pk": 3,
+  "fields": {
+    "task": 3,
+    "staff": 2,
+    "status": "COMPLETED",
+    "assigned_at": "2026-09-30T02:27:11.575Z",
+    "acknowledged_at": "2026-09-30T02:27:11.593Z",
+    "completed_at": "2026-09-30T02:27:11.609Z",
+    "completion_notes": "TC-10: Automated test task completed successfully."
+  }
+},
+{
+  "model": "bms.taskassignment",
+  "pk": 4,
+  "fields": {
+    "task": 4,
+    "staff": 2,
+    "status": "OVERDUE",
+    "assigned_at": "2026-09-30T02:27:11.625Z",
+    "acknowledged_at": null,
+    "completed_at": null,
+    "completion_notes": ""
+  }
+},
+{
+  "model": "bms.taskassignment",
+  "pk": 5,
+  "fields": {
+    "task": 5,
+    "staff": 2,
+    "status": "COMPLETED",
+    "assigned_at": "2026-09-30T02:29:30.561Z",
+    "acknowledged_at": "2026-09-30T02:29:30.594Z",
+    "completed_at": "2026-09-30T02:29:30.628Z",
+    "completion_notes": "Culvert fully cleared. Water flow restored normal."
+  }
+},
+{
+  "model": "bms.taskassignment",
+  "pk": 6,
+  "fields": {
+    "task": 6,
+    "staff": 2,
+    "status": "OVERDUE",
+    "assigned_at": "2026-09-30T02:29:30.628Z",
+    "acknowledged_at": null,
+    "completed_at": null,
+    "completion_notes": ""
+  }
+},
+{
+  "model": "bms.taskupdate",
+  "pk": 1,
+  "fields": {
+    "task": 1,
+    "staff": 2,
+    "update_type": "acknowledge",
+    "update_text": "Task acknowledged and queued.",
+    "progress_percent": 0,
+    "created_at": "2026-10-03T03:31:33.189Z"
+  }
+},
+{
+  "model": "bms.taskupdate",
+  "pk": 2,
+  "fields": {
+    "task": 1,
+    "staff": 2,
+    "update_type": "progress",
+    "update_text": "TC-09: Working on this. 40% done.",
+    "progress_percent": 40,
+    "created_at": "2026-10-03T03:31:33.226Z"
+  }
+},
+{
+  "model": "bms.taskupdate",
+  "pk": 3,
+  "fields": {
+    "task": 1,
+    "staff": 2,
+    "update_type": "complete",
+    "update_text": "Completed: TC-10: Automated test task completed successfully.",
+    "progress_percent": 100,
+    "created_at": "2026-10-03T03:31:33.264Z"
+  }
+},
+{
+  "model": "bms.taskupdate",
+  "pk": 4,
+  "fields": {
+    "task": 3,
+    "staff": 2,
+    "update_type": "acknowledge",
+    "update_text": "Task acknowledged and queued.",
+    "progress_percent": 0,
+    "created_at": "2026-10-03T03:31:33.301Z"
+  }
+},
+{
+  "model": "bms.taskupdate",
+  "pk": 5,
+  "fields": {
+    "task": 3,
+    "staff": 2,
+    "update_type": "progress",
+    "update_text": "TC-09: Working on this. 40% done.",
+    "progress_percent": 40,
+    "created_at": "2026-10-03T03:31:33.336Z"
+  }
+},
+{
+  "model": "bms.taskupdate",
+  "pk": 6,
+  "fields": {
+    "task": 3,
+    "staff": 2,
+    "update_type": "complete",
+    "update_text": "Completed: TC-10: Automated test task completed successfully.",
+    "progress_percent": 100,
+    "created_at": "2026-10-03T03:31:33.374Z"
+  }
+},
+{
+  "model": "bms.conversation",
+  "pk": 1,
+  "fields": {
+    "conversation_key": "direct_2_6",
+    "title": "Direct: Maria Clara Santos",
+    "type": "direct",
+    "created_by": 6,
+    "created_at": "2026-10-03T03:31:33.425Z",
+    "updated_at": "2026-10-03T03:31:33.425Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 1,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "NORMAL",
+    "subject": "Test Message",
+    "body": "TC-05: Automated test message from PB.",
+    "is_important": false,
+    "task": null,
+    "created_at": "2026-10-03T03:31:33.465Z",
+    "updated_at": "2026-10-03T03:31:33.465Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 2,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "TASK",
+    "subject": "OFFICIAL COMMAND: TC-06 Automated Test Command",
+    "body": "This is an automated test command. Process all test documents.",
+    "is_important": true,
+    "task": 1,
+    "created_at": "2026-10-03T03:31:33.497Z",
+    "updated_at": "2026-10-03T03:31:33.497Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 3,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "TASK",
+    "subject": "OFFICIAL COMMAND: TC-11 Automated Overdue Command",
+    "body": "This task has a past deadline for overdue detection testing.",
+    "is_important": true,
+    "task": 2,
+    "created_at": "2026-10-03T03:31:33.525Z",
+    "updated_at": "2026-10-03T03:31:33.525Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 4,
+  "fields": {
+    "conversation": 1,
+    "sender": 2,
+    "message_type": "NORMAL",
+    "subject": "[CLARIFICATION]",
+    "body": "TC-16: Requesting clarification on the task scope.",
+    "is_important": false,
+    "task": null,
+    "created_at": "2026-10-03T03:31:33.554Z",
+    "updated_at": "2026-10-03T03:31:33.554Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 5,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "NORMAL",
+    "subject": "Test Message",
+    "body": "TC-05: Automated test message from PB.",
+    "is_important": false,
+    "task": null,
+    "created_at": "2026-10-03T03:31:33.582Z",
+    "updated_at": "2026-10-03T03:31:33.582Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 6,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "TASK",
+    "subject": "OFFICIAL COMMAND: TC-06 Automated Test Command",
+    "body": "This is an automated test command. Process all test documents.",
+    "is_important": true,
+    "task": 3,
+    "created_at": "2026-10-03T03:31:33.614Z",
+    "updated_at": "2026-10-03T03:31:33.614Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 7,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "TASK",
+    "subject": "OFFICIAL COMMAND: TC-11 Automated Overdue Command",
+    "body": "This task has a past deadline for overdue detection testing.",
+    "is_important": true,
+    "task": 4,
+    "created_at": "2026-10-03T03:31:33.644Z",
+    "updated_at": "2026-10-03T03:31:33.644Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 8,
+  "fields": {
+    "conversation": 1,
+    "sender": 2,
+    "message_type": "NORMAL",
+    "subject": "[CLARIFICATION]",
+    "body": "TC-16: Requesting clarification on the task scope.",
+    "is_important": false,
+    "task": null,
+    "created_at": "2026-10-03T03:31:33.675Z",
+    "updated_at": "2026-10-03T03:31:33.675Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 9,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "URGENT",
+    "subject": "Clean-up Drive Coordination",
+    "body": "Please coordinate with Zone 1 leaders for tomorrow's clean-up.",
+    "is_important": true,
+    "task": null,
+    "created_at": "2026-10-03T03:31:33.705Z",
+    "updated_at": "2026-10-03T03:31:33.705Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 10,
+  "fields": {
+    "conversation": 1,
+    "sender": 2,
+    "message_type": "NORMAL",
+    "subject": "",
+    "body": "Understood, Captain. I am contacting Zone 1 leaders right now.",
+    "is_important": false,
+    "task": null,
+    "created_at": "2026-10-03T03:31:33.734Z",
+    "updated_at": "2026-10-03T03:31:33.734Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 11,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "TASK",
+    "subject": "OFFICIAL COMMAND: Inspect Drainage Sector 4",
+    "body": "Inspect drainage blockage reported along Sector 4.",
+    "is_important": true,
+    "task": 5,
+    "created_at": "2026-10-03T03:31:33.761Z",
+    "updated_at": "2026-10-03T03:31:33.761Z"
+  }
+},
+{
+  "model": "bms.message",
+  "pk": 12,
+  "fields": {
+    "conversation": 1,
+    "sender": 6,
+    "message_type": "TASK",
+    "subject": "OFFICIAL COMMAND: Old Inspection Task",
+    "body": "Task that was due 2 days ago.",
+    "is_important": false,
+    "task": 6,
+    "created_at": "2026-10-03T03:31:33.789Z",
+    "updated_at": "2026-10-03T03:31:33.789Z"
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 1,
+  "fields": {
+    "message": 1,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T02:27:00.362Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 2,
+  "fields": {
+    "message": 2,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T02:27:00.362Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 3,
+  "fields": {
+    "message": 3,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T02:27:00.362Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 4,
+  "fields": {
+    "message": 4,
+    "conversation": 1,
+    "recipient": 6,
+    "is_read": true,
+    "read_at": "2026-09-30T02:27:10.559Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 5,
+  "fields": {
+    "message": 5,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T02:27:11.680Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 6,
+  "fields": {
+    "message": 6,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T02:27:11.680Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 7,
+  "fields": {
+    "message": 7,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T02:27:11.680Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 8,
+  "fields": {
+    "message": 8,
+    "conversation": 1,
+    "recipient": 6,
+    "is_read": true,
+    "read_at": "2026-09-30T02:27:11.742Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 9,
+  "fields": {
+    "message": 9,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T04:23:42.390Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 10,
+  "fields": {
+    "message": 10,
+    "conversation": 1,
+    "recipient": 6,
+    "is_read": true,
+    "read_at": "2026-09-30T02:29:30.561Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 11,
+  "fields": {
+    "message": 11,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T04:23:42.390Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.messagerecipient",
+  "pk": 12,
+  "fields": {
+    "message": 12,
+    "conversation": 1,
+    "recipient": 2,
+    "is_read": true,
+    "read_at": "2026-09-30T04:23:42.390Z",
+    "is_archived": false,
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "title": "[NORMAL] Message from Punong Barangay",
+    "body": "TC-05: Automated test message from PB.",
+    "notification_type": "message",
+    "is_read": true,
+    "related_id": "1",
+    "related_type": "message",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.307Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "title": "New Task: TC-06 Automated Test Command",
+    "body": "Priority: HIGH · Due: 2026-10-02",
+    "notification_type": "task",
+    "is_read": true,
+    "related_id": "1",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.342Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 3,
+  "fields": {
+    "user": 6,
+    "title": "Task Acknowledged: TC-06 Automated Test Command",
+    "body": "Maria Clara Santos acknowledged assigned task.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "1",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:34.379Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 4,
+  "fields": {
+    "user": 6,
+    "title": "Task Progress (40%): TC-06 Automated Test Command",
+    "body": "Maria Clara Santos: TC-09: Working on this. 40% done.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "1",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:34.413Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 5,
+  "fields": {
+    "user": 6,
+    "title": "Task Completed: TC-06 Automated Test Command",
+    "body": "Maria Clara Santos completed the task. Notes: TC-10: Automated test task completed successfully.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "1",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:34.450Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 6,
+  "fields": {
+    "user": 2,
+    "title": "New Task: TC-11 Automated Overdue Command",
+    "body": "Priority: HIGH · Due: 2026-09-28",
+    "notification_type": "task",
+    "is_read": true,
+    "related_id": "2",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.484Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 7,
+  "fields": {
+    "user": 2,
+    "title": "⚠️ TASK OVERDUE: TC-11 Automated Overdue Command",
+    "body": "Deadline was 2026-09-28. Please submit an immediate update or request clarification.",
+    "notification_type": "task_overdue",
+    "is_read": true,
+    "related_id": "2",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.521Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 8,
+  "fields": {
+    "user": 6,
+    "title": "⚠️ TASK OVERDUE: TC-11 Automated Overdue Command",
+    "body": "Task deadline (2026-09-28) has passed without completion.",
+    "notification_type": "task_overdue",
+    "is_read": false,
+    "related_id": "2",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.560Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 9,
+  "fields": {
+    "user": 6,
+    "title": "Reply from Maria Clara Santos",
+    "body": "TC-16: Requesting clarification on the task scope.",
+    "notification_type": "message",
+    "is_read": false,
+    "related_id": "1",
+    "related_type": "message",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:34.597Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 10,
+  "fields": {
+    "user": 2,
+    "title": "[NORMAL] Message from Punong Barangay",
+    "body": "TC-05: Automated test message from PB.",
+    "notification_type": "message",
+    "is_read": true,
+    "related_id": "1",
+    "related_type": "message",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.631Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 11,
+  "fields": {
+    "user": 2,
+    "title": "New Task: TC-06 Automated Test Command",
+    "body": "Priority: HIGH · Due: 2026-10-02",
+    "notification_type": "task",
+    "is_read": true,
+    "related_id": "3",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.669Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 12,
+  "fields": {
+    "user": 6,
+    "title": "Task Acknowledged: TC-06 Automated Test Command",
+    "body": "Maria Clara Santos acknowledged assigned task.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "3",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:34.708Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 13,
+  "fields": {
+    "user": 6,
+    "title": "Task Progress (40%): TC-06 Automated Test Command",
+    "body": "Maria Clara Santos: TC-09: Working on this. 40% done.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "3",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:34.745Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 14,
+  "fields": {
+    "user": 6,
+    "title": "Task Completed: TC-06 Automated Test Command",
+    "body": "Maria Clara Santos completed the task. Notes: TC-10: Automated test task completed successfully.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "3",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:34.781Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 15,
+  "fields": {
+    "user": 2,
+    "title": "New Task: TC-11 Automated Overdue Command",
+    "body": "Priority: HIGH · Due: 2026-09-28",
+    "notification_type": "task",
+    "is_read": true,
+    "related_id": "4",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.818Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 16,
+  "fields": {
+    "user": 2,
+    "title": "⚠️ TASK OVERDUE: TC-11 Automated Overdue Command",
+    "body": "Deadline was 2026-09-28. Please submit an immediate update or request clarification.",
+    "notification_type": "task_overdue",
+    "is_read": true,
+    "related_id": "4",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.855Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 17,
+  "fields": {
+    "user": 6,
+    "title": "⚠️ TASK OVERDUE: TC-11 Automated Overdue Command",
+    "body": "Task deadline (2026-09-28) has passed without completion.",
+    "notification_type": "task_overdue",
+    "is_read": false,
+    "related_id": "4",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.893Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 18,
+  "fields": {
+    "user": 6,
+    "title": "Reply from Maria Clara Santos",
+    "body": "TC-16: Requesting clarification on the task scope.",
+    "notification_type": "message",
+    "is_read": false,
+    "related_id": "1",
+    "related_type": "message",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:34.928Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 19,
+  "fields": {
+    "user": 2,
+    "title": "[URGENT] Message from Punong Barangay",
+    "body": "Please coordinate with Zone 1 leaders for tomorrow's clean-up.",
+    "notification_type": "message",
+    "is_read": true,
+    "related_id": "1",
+    "related_type": "message",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:34.967Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 20,
+  "fields": {
+    "user": 6,
+    "title": "Reply from Maria Clara Santos",
+    "body": "Understood, Captain. I am contacting Zone 1 leaders right now.",
+    "notification_type": "message",
+    "is_read": false,
+    "related_id": "1",
+    "related_type": "message",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:35.003Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 21,
+  "fields": {
+    "user": 2,
+    "title": "New Task: Inspect Drainage Sector 4",
+    "body": "Priority: HIGH · Due: 2026-09-30",
+    "notification_type": "task",
+    "is_read": true,
+    "related_id": "5",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:35.042Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 22,
+  "fields": {
+    "user": 6,
+    "title": "Task Acknowledged: Inspect Drainage Sector 4",
+    "body": "Maria Clara Santos acknowledged assigned task.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "5",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:35.080Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 23,
+  "fields": {
+    "user": 6,
+    "title": "Task Progress (25%): Inspect Drainage Sector 4",
+    "body": "Maria Clara Santos: Arrived on site and began clearing debris.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "5",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:35.116Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 24,
+  "fields": {
+    "user": 6,
+    "title": "Task Progress (50%): Inspect Drainage Sector 4",
+    "body": "Maria Clara Santos: Culvert halfway cleared, second truck arrived.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "5",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:35.151Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 25,
+  "fields": {
+    "user": 6,
+    "title": "Task Completed: Inspect Drainage Sector 4",
+    "body": "Maria Clara Santos completed the task. Notes: Culvert fully cleared. Water flow restored normal.",
+    "notification_type": "task",
+    "is_read": false,
+    "related_id": "5",
+    "related_type": "task",
+    "sender": 2,
+    "created_at": "2026-10-03T03:31:35.186Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 26,
+  "fields": {
+    "user": 2,
+    "title": "New Task: Old Inspection Task",
+    "body": "Priority: NORMAL · Due: 2026-09-27",
+    "notification_type": "task",
+    "is_read": true,
+    "related_id": "6",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:35.221Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 27,
+  "fields": {
+    "user": 2,
+    "title": "⚠️ TASK OVERDUE: Old Inspection Task",
+    "body": "Deadline was 2026-09-27. Please submit an immediate update or request clarification.",
+    "notification_type": "task_overdue",
+    "is_read": true,
+    "related_id": "6",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:35.257Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 28,
+  "fields": {
+    "user": 6,
+    "title": "⚠️ TASK OVERDUE: Old Inspection Task",
+    "body": "Task deadline (2026-09-27) has passed without completion.",
+    "notification_type": "task_overdue",
+    "is_read": false,
+    "related_id": "6",
+    "related_type": "task",
+    "sender": 6,
+    "created_at": "2026-10-03T03:31:35.298Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 29,
+  "fields": {
+    "user": 1,
+    "title": "New document request submitted",
+    "body": "Barangay Clearance: Employment",
+    "notification_type": "request",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.333Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 30,
+  "fields": {
+    "user": 2,
+    "title": "New document request submitted",
+    "body": "Barangay Clearance: Employment",
+    "notification_type": "request",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.368Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 31,
+  "fields": {
+    "user": 3,
+    "title": "New document request submitted",
+    "body": "Barangay Clearance: Employment",
+    "notification_type": "request",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.403Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 32,
+  "fields": {
+    "user": 4,
+    "title": "New document request submitted",
+    "body": "Barangay Clearance: Employment",
+    "notification_type": "request",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.441Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 33,
+  "fields": {
+    "user": 7,
+    "title": "Certificate ready",
+    "body": "Your Barangay Clearance (REQ-2026-A0366643) has been issued. Reference: CERT-39D6B9.",
+    "notification_type": "certificate",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.476Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 34,
+  "fields": {
+    "user": 1,
+    "title": "New document request submitted",
+    "body": "Barangay Clearance: Employment",
+    "notification_type": "request",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.512Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 35,
+  "fields": {
+    "user": 2,
+    "title": "New document request submitted",
+    "body": "Barangay Clearance: Employment",
+    "notification_type": "request",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.548Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 36,
+  "fields": {
+    "user": 3,
+    "title": "New document request submitted",
+    "body": "Barangay Clearance: Employment",
+    "notification_type": "request",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.585Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 37,
+  "fields": {
+    "user": 4,
+    "title": "New document request submitted",
+    "body": "Barangay Clearance: Employment",
+    "notification_type": "request",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.624Z"
+  }
+},
+{
+  "model": "bms.notification",
+  "pk": 38,
+  "fields": {
+    "user": 8,
+    "title": "Certificate ready",
+    "body": "Your Barangay Clearance (REQ-2026-916BEE79) has been issued. Reference: CERT-90B287.",
+    "notification_type": "certificate",
+    "is_read": false,
+    "related_id": "",
+    "related_type": "",
+    "sender": null,
+    "created_at": "2026-10-03T03:31:35.663Z"
+  }
+},
+{
+  "model": "bms.galleryitem",
+  "pk": 1,
+  "fields": {
+    "image_path": "./logo.png",
+    "thumbnail_path": "",
+    "caption": "Official Barangay Identity & Seal",
+    "description": "Official insignia representing our barangay history and mission.",
+    "display_order": 1,
+    "is_visible": true,
+    "status": "ACTIVE",
+    "created_at": "2026-10-03T03:31:35.708Z",
+    "updated_at": "2026-10-03T03:31:35.708Z",
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.galleryitem",
+  "pk": 2,
+  "fields": {
+    "image_path": "./compressed_b2f0e3ddc22210e534db1aade7c52180.png",
+    "thumbnail_path": "",
+    "caption": "Community Hall & Assembly",
+    "description": "Public gathering space for barangay assemblies and civic sessions.",
+    "display_order": 2,
+    "is_visible": true,
+    "status": "ACTIVE",
+    "created_at": "2026-10-03T03:31:35.745Z",
+    "updated_at": "2026-10-03T03:31:35.745Z",
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.galleryitem",
+  "pk": 3,
+  "fields": {
+    "image_path": "./assets/logo.png",
+    "thumbnail_path": "",
+    "caption": "E-Governance & Public Services",
+    "description": "Digital service processing and community resource centers.",
+    "display_order": 3,
+    "is_visible": true,
+    "status": "ACTIVE",
+    "created_at": "2026-10-03T03:31:35.782Z",
+    "updated_at": "2026-10-03T03:31:35.782Z",
+    "archived_at": null
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 1,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:35.826Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 2,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:35.864Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 3,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:35.902Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 4,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:35.940Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 5,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:35.988Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 6,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.023Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 7,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "lastName": "AcceptanceTest",
+      "firstName": "User6751e8",
+      "birthDate": "1990-06-15",
+      "gender": "Male",
+      "civilStatus": "Single",
+      "address": "123 Test Street",
+      "contact": "09001234567",
+      "voter": "Yes",
+      "householdNo": "TEST-01"
+    },
+    "created_at": "2026-10-03T03:31:36.062Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 8,
+  "fields": {
+    "event_type": "resident:archived",
+    "actor": 1,
+    "payload": {
+      "recordId": 6
+    },
+    "created_at": "2026-10-03T03:31:36.096Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 9,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.132Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 10,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.168Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 11,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.204Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 12,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.239Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 13,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.276Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 14,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.314Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 15,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.347Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 16,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.383Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 17,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:36.420Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 18,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:36.456Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 19,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.492Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 20,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.529Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 21,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.566Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 22,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.604Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 23,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:36.640Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 24,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:36.676Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 25,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.713Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 26,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "lastName": "AcceptanceTest",
+      "firstName": "User9a05b6",
+      "birthDate": "1990-06-15",
+      "gender": "Male",
+      "civilStatus": "Single",
+      "address": "123 Test Street",
+      "contact": "09001234567",
+      "voter": "Yes",
+      "householdNo": "TEST-01"
+    },
+    "created_at": "2026-10-03T03:31:36.749Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 27,
+  "fields": {
+    "event_type": "resident:archived",
+    "actor": 1,
+    "payload": {
+      "recordId": 7
+    },
+    "created_at": "2026-10-03T03:31:36.786Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 28,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.824Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 29,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:36.860Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 30,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:36.897Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 31,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "lastName": "Test",
+      "firstName": "John_5c7819",
+      "birthDate": "2000-01-01",
+      "gender": "Male",
+      "civilStatus": "Single",
+      "address": "123 Street",
+      "contact": "1234567890",
+      "voter": "Yes",
+      "householdNo": "1"
+    },
+    "created_at": "2026-10-03T03:31:36.932Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 32,
+  "fields": {
+    "event_type": "resident:archived",
+    "actor": 1,
+    "payload": {
+      "recordId": 8
+    },
+    "created_at": "2026-10-03T03:31:36.968Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 33,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:37.004Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 34,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:37.042Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 35,
+  "fields": {
+    "event_type": "message:sent",
+    "actor": 6,
+    "payload": {
+      "conversationId": 1,
+      "messageId": 1,
+      "messageType": "NORMAL",
+      "recipientsCount": 1,
+      "isImportant": false
+    },
+    "created_at": "2026-10-03T03:31:37.077Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 36,
+  "fields": {
+    "event_type": "task:created",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0001-DB66",
+      "recordId": 1,
+      "title": "TC-06 Automated Test Command",
+      "priority": "HIGH",
+      "assignees": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:37.113Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 37,
+  "fields": {
+    "event_type": "task:assigned",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0001-DB66",
+      "assigneesCount": 1
+    },
+    "created_at": "2026-10-03T03:31:37.149Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 38,
+  "fields": {
+    "event_type": "task:acknowledged",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0001-DB66",
+      "recordId": 1
+    },
+    "created_at": "2026-10-03T03:31:37.183Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 39,
+  "fields": {
+    "event_type": "task:progress-updated",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0001-DB66",
+      "progress": 40,
+      "updateId": 2
+    },
+    "created_at": "2026-10-03T03:31:37.221Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 40,
+  "fields": {
+    "event_type": "task:completed",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0001-DB66",
+      "recordId": 1,
+      "notes": "TC-10: Automated test task completed successfully."
+    },
+    "created_at": "2026-10-03T03:31:37.259Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 41,
+  "fields": {
+    "event_type": "task:created",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0002-6BB5",
+      "recordId": 2,
+      "title": "TC-11 Automated Overdue Command",
+      "priority": "HIGH",
+      "assignees": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:37.297Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 42,
+  "fields": {
+    "event_type": "task:assigned",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0002-6BB5",
+      "assigneesCount": 1
+    },
+    "created_at": "2026-10-03T03:31:37.332Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 43,
+  "fields": {
+    "event_type": "message:replied",
+    "actor": 2,
+    "payload": {
+      "conversationId": 1,
+      "messageId": 4
+    },
+    "created_at": "2026-10-03T03:31:37.365Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 44,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:37.400Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 45,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "lastName": "AcceptanceTest",
+      "firstName": "User81b115",
+      "birthDate": "1990-06-15",
+      "gender": "Male",
+      "civilStatus": "Single",
+      "address": "123 Test Street",
+      "contact": "09001234567",
+      "voter": "Yes",
+      "householdNo": "TEST-01"
+    },
+    "created_at": "2026-10-03T03:31:37.437Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 46,
+  "fields": {
+    "event_type": "resident:archived",
+    "actor": 1,
+    "payload": {
+      "recordId": 9
+    },
+    "created_at": "2026-10-03T03:31:37.474Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 47,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:37.510Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 48,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:37.547Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 49,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:37.582Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 50,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "lastName": "Test",
+      "firstName": "John_c87d56",
+      "birthDate": "2000-01-01",
+      "gender": "Male",
+      "civilStatus": "Single",
+      "address": "123 Street",
+      "contact": "1234567890",
+      "voter": "Yes",
+      "householdNo": "1"
+    },
+    "created_at": "2026-10-03T03:31:37.615Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 51,
+  "fields": {
+    "event_type": "resident:archived",
+    "actor": 1,
+    "payload": {
+      "recordId": 10
+    },
+    "created_at": "2026-10-03T03:31:37.650Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 52,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:37.689Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 53,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:37.731Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 54,
+  "fields": {
+    "event_type": "message:sent",
+    "actor": 6,
+    "payload": {
+      "conversationId": 1,
+      "messageId": 5,
+      "messageType": "NORMAL",
+      "recipientsCount": 1,
+      "isImportant": false
+    },
+    "created_at": "2026-10-03T03:31:37.772Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 55,
+  "fields": {
+    "event_type": "task:created",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0003-CC3E",
+      "recordId": 3,
+      "title": "TC-06 Automated Test Command",
+      "priority": "HIGH",
+      "assignees": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:37.809Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 56,
+  "fields": {
+    "event_type": "task:assigned",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0003-CC3E",
+      "assigneesCount": 1
+    },
+    "created_at": "2026-10-03T03:31:37.843Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 57,
+  "fields": {
+    "event_type": "task:acknowledged",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0003-CC3E",
+      "recordId": 3
+    },
+    "created_at": "2026-10-03T03:31:37.880Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 58,
+  "fields": {
+    "event_type": "task:progress-updated",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0003-CC3E",
+      "progress": 40,
+      "updateId": 5
+    },
+    "created_at": "2026-10-03T03:31:37.918Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 59,
+  "fields": {
+    "event_type": "task:completed",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0003-CC3E",
+      "recordId": 3,
+      "notes": "TC-10: Automated test task completed successfully."
+    },
+    "created_at": "2026-10-03T03:31:37.959Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 60,
+  "fields": {
+    "event_type": "task:created",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0004-4C1F",
+      "recordId": 4,
+      "title": "TC-11 Automated Overdue Command",
+      "priority": "HIGH",
+      "assignees": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:37.995Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 61,
+  "fields": {
+    "event_type": "task:assigned",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0004-4C1F",
+      "assigneesCount": 1
+    },
+    "created_at": "2026-10-03T03:31:38.031Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 62,
+  "fields": {
+    "event_type": "message:replied",
+    "actor": 2,
+    "payload": {
+      "conversationId": 1,
+      "messageId": 8
+    },
+    "created_at": "2026-10-03T03:31:38.064Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 63,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:38.099Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 64,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "lastName": "AcceptanceTest",
+      "firstName": "Userd98019",
+      "birthDate": "1990-06-15",
+      "gender": "Male",
+      "civilStatus": "Single",
+      "address": "123 Test Street",
+      "contact": "09001234567",
+      "voter": "Yes",
+      "householdNo": "TEST-01"
+    },
+    "created_at": "2026-10-03T03:31:38.139Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 65,
+  "fields": {
+    "event_type": "resident:archived",
+    "actor": 1,
+    "payload": {
+      "recordId": 11
+    },
+    "created_at": "2026-10-03T03:31:38.175Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 66,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:38.214Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 67,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:38.254Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 68,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:38.291Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 69,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:38.329Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 70,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:38.366Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 71,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:38.402Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 72,
+  "fields": {
+    "event_type": "admin:protection-settings-updated",
+    "actor": 1,
+    "payload": {
+      "enabled": true,
+      "watermarkEnabled": true,
+      "watermarkText": "OFFICIAL TEST WATERMARK",
+      "watermarkOpacity": 0.35,
+      "watermarkPosition": "bottom-right",
+      "rightClickProtection": true,
+      "dragPrevention": true
+    },
+    "created_at": "2026-10-03T03:31:38.438Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 73,
+  "fields": {
+    "event_type": "admin:protection-settings-updated",
+    "actor": 1,
+    "payload": {
+      "enabled": true,
+      "watermarkEnabled": true,
+      "watermarkText": "OFFICIAL BARANGAY WEBSITE",
+      "watermarkOpacity": 0.3,
+      "watermarkPosition": "bottom-right",
+      "rightClickProtection": true,
+      "dragPrevention": true
+    },
+    "created_at": "2026-10-03T03:31:38.473Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 74,
+  "fields": {
+    "event_type": "admin:hero-image-uploaded",
+    "actor": 1,
+    "payload": {
+      "filename": "hero_20260930_022914_5d47f576.jpg",
+      "size": 824,
+      "focalPosition": "center",
+      "watermarked": true
+    },
+    "created_at": "2026-10-03T03:31:38.512Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 75,
+  "fields": {
+    "event_type": "admin:hero-image-reset",
+    "actor": 1,
+    "payload": {},
+    "created_at": "2026-10-03T03:31:38.551Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 76,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:38.590Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 77,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:38.629Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 78,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:38.668Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 79,
+  "fields": {
+    "event_type": "message:sent",
+    "actor": 6,
+    "payload": {
+      "conversationId": 1,
+      "messageId": 9,
+      "messageType": "URGENT",
+      "recipientsCount": 1,
+      "isImportant": true
+    },
+    "created_at": "2026-10-03T03:31:38.712Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 80,
+  "fields": {
+    "event_type": "message:replied",
+    "actor": 2,
+    "payload": {
+      "conversationId": 1,
+      "messageId": 10
+    },
+    "created_at": "2026-10-03T03:31:38.752Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 81,
+  "fields": {
+    "event_type": "task:created",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0005-9797",
+      "recordId": 5,
+      "title": "Inspect Drainage Sector 4",
+      "priority": "HIGH",
+      "assignees": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:38.795Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 82,
+  "fields": {
+    "event_type": "task:assigned",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0005-9797",
+      "assigneesCount": 1
+    },
+    "created_at": "2026-10-03T03:31:38.833Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 83,
+  "fields": {
+    "event_type": "task:acknowledged",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0005-9797",
+      "recordId": 5
+    },
+    "created_at": "2026-10-03T03:31:38.868Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 84,
+  "fields": {
+    "event_type": "task:progress-updated",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0005-9797",
+      "progress": 25,
+      "updateId": 8
+    },
+    "created_at": "2026-10-03T03:31:38.901Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 85,
+  "fields": {
+    "event_type": "task:progress-updated",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0005-9797",
+      "progress": 50,
+      "updateId": 9
+    },
+    "created_at": "2026-10-03T03:31:38.937Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 86,
+  "fields": {
+    "event_type": "task:completed",
+    "actor": 2,
+    "payload": {
+      "taskId": "TASK-2026-0005-9797",
+      "recordId": 5,
+      "notes": "Culvert fully cleared. Water flow restored normal."
+    },
+    "created_at": "2026-10-03T03:31:38.977Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 87,
+  "fields": {
+    "event_type": "task:created",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0006-F455",
+      "recordId": 6,
+      "title": "Old Inspection Task",
+      "priority": "NORMAL",
+      "assignees": [
+        2
+      ]
+    },
+    "created_at": "2026-10-03T03:31:39.017Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 88,
+  "fields": {
+    "event_type": "task:assigned",
+    "actor": 6,
+    "payload": {
+      "taskId": "TASK-2026-0006-F455",
+      "assigneesCount": 1
+    },
+    "created_at": "2026-10-03T03:31:39.056Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 89,
+  "fields": {
+    "event_type": "staff:archived",
+    "actor": 1,
+    "payload": {
+      "staffId": "2",
+      "name": "Maria Clara Santos",
+      "reason": ""
+    },
+    "created_at": "2026-10-03T03:31:39.096Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 90,
+  "fields": {
+    "event_type": "staff:restored",
+    "actor": 1,
+    "payload": {
+      "staffId": "2",
+      "name": "Maria Clara Santos"
+    },
+    "created_at": "2026-10-03T03:31:39.134Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 91,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:39.172Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 92,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:39.210Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 93,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "householdNo": "HH-4d0d07",
+      "lastName": "Santos_4d0d07",
+      "firstName": "Maria",
+      "middleName": "Clara",
+      "birthDate": "1992-05-12",
+      "gender": "Female",
+      "civilStatus": "Single",
+      "address": "Purok 2, Rizal Avenue",
+      "contact": "09184d0d07",
+      "voter": "Yes",
+      "classification": "PWD"
+    },
+    "created_at": "2026-10-03T03:31:39.248Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 94,
+  "fields": {
+    "event_type": "user:registered",
+    "actor": 7,
+    "payload": {
+      "username": "maria_4d0d07",
+      "residentId": "BRGY-2026-000012",
+      "classification": "PWD"
+    },
+    "created_at": "2026-10-03T03:31:39.288Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 95,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 7,
+    "payload": {
+      "username": "maria_4d0d07"
+    },
+    "created_at": "2026-10-03T03:31:39.325Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 96,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "householdNo": "HH-b8bf7f",
+      "lastName": "Cruz_b8bf7f",
+      "firstName": "Pedro",
+      "birthDate": "1988-11-20",
+      "gender": "Male",
+      "civilStatus": "Widowed",
+      "address": "Purok 3, Mabini Street",
+      "contact": "0919b8bf7f",
+      "voter": "Yes",
+      "classification": "Solo Parent"
+    },
+    "created_at": "2026-10-03T03:31:39.363Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 97,
+  "fields": {
+    "event_type": "resident:classification-updated",
+    "actor": 1,
+    "payload": {
+      "residentId": "BRGY-2026-000012",
+      "previous": "PWD",
+      "new": "Senior Citizen"
+    },
+    "created_at": "2026-10-03T03:31:39.402Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 98,
+  "fields": {
+    "event_type": "cert:requested",
+    "actor": 7,
+    "payload": {
+      "event": "cert:requested",
+      "type": "Barangay Clearance",
+      "purpose": "Employment",
+      "dateNeeded": "2026-09-01",
+      "classification": "Senior Citizen",
+      "resident": "Maria Santos_4d0d07",
+      "residentId": "BRGY-2026-000012",
+      "address": "Purok 2, Rizal Avenue"
+    },
+    "created_at": "2026-10-03T03:31:39.440Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 99,
+  "fields": {
+    "event_type": "request:status-updated",
+    "actor": 1,
+    "payload": {
+      "requestId": "REQ-2026-A0366643",
+      "previous": "pending",
+      "new": "completed"
+    },
+    "created_at": "2026-10-03T03:31:39.476Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 100,
+  "fields": {
+    "event_type": "cert:issued",
+    "actor": 1,
+    "payload": {
+      "event": "cert:issued",
+      "requestId": "REQ-2026-A0366643",
+      "certNo": "CERT-39D6B9",
+      "type": "Barangay Clearance",
+      "purpose": "Employment",
+      "dateIssued": "2026-08-26",
+      "resident": "Maria Santos_4d0d07",
+      "classification": "Senior Citizen",
+      "address": "Purok 2, Rizal Avenue"
+    },
+    "created_at": "2026-10-03T03:31:39.513Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 101,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:39.551Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 102,
+  "fields": {
+    "event_type": "admin:official-added",
+    "actor": 1,
+    "payload": {
+      "officialId": 4,
+      "name": "Hon. Test Kagawad",
+      "position": "Barangay Kagawad"
+    },
+    "created_at": "2026-10-03T03:31:39.602Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 103,
+  "fields": {
+    "event_type": "admin:official-updated",
+    "actor": 1,
+    "payload": {
+      "officialId": "4",
+      "name": "Hon. Test Kagawad Updated"
+    },
+    "created_at": "2026-10-03T03:31:39.637Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 104,
+  "fields": {
+    "event_type": "admin:official-archived",
+    "actor": 1,
+    "payload": {
+      "officialId": "4"
+    },
+    "created_at": "2026-10-03T03:31:39.675Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 105,
+  "fields": {
+    "event_type": "admin:official-restored",
+    "actor": 1,
+    "payload": {
+      "officialId": "4"
+    },
+    "created_at": "2026-10-03T03:31:39.710Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 106,
+  "fields": {
+    "event_type": "admin:officials-reordered",
+    "actor": 1,
+    "payload": {
+      "count": 1
+    },
+    "created_at": "2026-10-03T03:31:39.746Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 107,
+  "fields": {
+    "event_type": "admin:official-deleted",
+    "actor": 1,
+    "payload": {
+      "officialId": "4"
+    },
+    "created_at": "2026-10-03T03:31:39.781Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 108,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:39.820Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 109,
+  "fields": {
+    "event_type": "admin:gallery-item-added",
+    "actor": 1,
+    "payload": {
+      "galleryId": 4,
+      "caption": "Automated Test Community Project"
+    },
+    "created_at": "2026-10-03T03:31:39.855Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 110,
+  "fields": {
+    "event_type": "admin:gallery-item-updated",
+    "actor": 1,
+    "payload": {
+      "galleryId": "4"
+    },
+    "created_at": "2026-10-03T03:31:39.892Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 111,
+  "fields": {
+    "event_type": "admin:gallery-item-archived",
+    "actor": 1,
+    "payload": {
+      "galleryId": "4"
+    },
+    "created_at": "2026-10-03T03:31:39.925Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 112,
+  "fields": {
+    "event_type": "admin:gallery-item-restored",
+    "actor": 1,
+    "payload": {
+      "galleryId": "4"
+    },
+    "created_at": "2026-10-03T03:31:39.960Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 113,
+  "fields": {
+    "event_type": "admin:gallery-item-deleted",
+    "actor": 1,
+    "payload": {
+      "galleryId": "4"
+    },
+    "created_at": "2026-10-03T03:31:39.995Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 114,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:40.030Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 115,
+  "fields": {
+    "event_type": "admin:website-settings-updated",
+    "actor": 1,
+    "payload": {
+      "welcome_badge": "Test Portal Badge 2026",
+      "welcome_title": "WELCOME TO OUR TEST COMMUNITY",
+      "welcome_subtitle": "Testing dynamic database driven mission statement",
+      "hero_overlay_opacity": 82,
+      "contact_address": "Test Street 123, Poblacion",
+      "contact_phone": "(02) 9999-8888",
+      "emergency_hotline": "911-TEST",
+      "btn_portal_label": "ENTER SYSTEM NOW"
+    },
+    "created_at": "2026-10-03T03:31:40.067Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 116,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:40.103Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 117,
+  "fields": {
+    "event_type": "resident:profile-photo-updated",
+    "actor": 5,
+    "payload": {
+      "path": "uploads/residents/residents_20260930_022952_1da04282.png"
+    },
+    "created_at": "2026-10-03T03:31:40.140Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 118,
+  "fields": {
+    "event_type": "resident:profile-photo-removed",
+    "actor": 5,
+    "payload": {},
+    "created_at": "2026-10-03T03:31:40.179Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 119,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:40.218Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 120,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:40.257Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 121,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:40.296Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 122,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:40.334Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 123,
+  "fields": {
+    "event_type": "admin:hero-focal-updated",
+    "actor": 1,
+    "payload": {
+      "focalPosition": "bottom"
+    },
+    "created_at": "2026-10-03T03:31:40.370Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 124,
+  "fields": {
+    "event_type": "admin:hero-image-uploaded",
+    "actor": 1,
+    "payload": {
+      "filename": "hero_20260930_023002_8155eb91.jpg",
+      "size": 1241899,
+      "focalPosition": "top",
+      "watermarked": true
+    },
+    "created_at": "2026-10-03T03:31:40.406Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 125,
+  "fields": {
+    "event_type": "admin:hero-image-reset",
+    "actor": 1,
+    "payload": {},
+    "created_at": "2026-10-03T03:31:40.443Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 126,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:40.481Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 127,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "lastName": "Test",
+      "firstName": "John_e16a47",
+      "birthDate": "2000-01-01",
+      "gender": "Male",
+      "civilStatus": "Single",
+      "address": "123 Street",
+      "contact": "1234567890",
+      "voter": "Yes",
+      "householdNo": "1"
+    },
+    "created_at": "2026-10-03T03:31:40.519Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 128,
+  "fields": {
+    "event_type": "resident:archived",
+    "actor": 1,
+    "payload": {
+      "recordId": 14
+    },
+    "created_at": "2026-10-03T03:31:40.557Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 129,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:40.594Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 130,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:40.631Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 131,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:40.668Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 132,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:40.707Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 133,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:40.749Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 134,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:40.794Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 135,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:40.833Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 136,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:40.872Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 137,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:40.912Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 138,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 2,
+    "payload": {
+      "username": "staff"
+    },
+    "created_at": "2026-10-03T03:31:40.951Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 139,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:40.990Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 140,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:41.030Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 141,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 6,
+    "payload": {
+      "username": "punong_barangay"
+    },
+    "created_at": "2026-10-03T03:31:41.069Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 142,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.106Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 143,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.142Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 144,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:41.180Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 145,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.220Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 146,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.262Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 147,
+  "fields": {
+    "event_type": "user:logout",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.300Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 148,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.338Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 149,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.378Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 150,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "householdNo": "HH-aba239",
+      "lastName": "Santos_aba239",
+      "firstName": "Maria",
+      "middleName": "Clara",
+      "birthDate": "1992-05-12",
+      "gender": "Female",
+      "civilStatus": "Single",
+      "address": "Purok 2, Rizal Avenue",
+      "contact": "0918aba239",
+      "voter": "Yes",
+      "classification": "PWD"
+    },
+    "created_at": "2026-10-03T03:31:41.418Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 151,
+  "fields": {
+    "event_type": "user:registered",
+    "actor": 8,
+    "payload": {
+      "username": "maria_aba239",
+      "residentId": "BRGY-2026-000018",
+      "classification": "PWD"
+    },
+    "created_at": "2026-10-03T03:31:41.455Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 152,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 8,
+    "payload": {
+      "username": "maria_aba239"
+    },
+    "created_at": "2026-10-03T03:31:41.491Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 153,
+  "fields": {
+    "event_type": "resident:added",
+    "actor": 1,
+    "payload": {
+      "event": "resident:added",
+      "householdNo": "HH-cb0c94",
+      "lastName": "Cruz_cb0c94",
+      "firstName": "Pedro",
+      "birthDate": "1988-11-20",
+      "gender": "Male",
+      "civilStatus": "Widowed",
+      "address": "Purok 3, Mabini Street",
+      "contact": "0919cb0c94",
+      "voter": "Yes",
+      "classification": "Solo Parent"
+    },
+    "created_at": "2026-10-03T03:31:41.526Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 154,
+  "fields": {
+    "event_type": "resident:classification-updated",
+    "actor": 1,
+    "payload": {
+      "residentId": "BRGY-2026-000018",
+      "previous": "PWD",
+      "new": "Senior Citizen"
+    },
+    "created_at": "2026-10-03T03:31:41.560Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 155,
+  "fields": {
+    "event_type": "cert:requested",
+    "actor": 8,
+    "payload": {
+      "event": "cert:requested",
+      "type": "Barangay Clearance",
+      "purpose": "Employment",
+      "dateNeeded": "2026-09-01",
+      "classification": "Senior Citizen",
+      "resident": "Maria Santos_aba239",
+      "residentId": "BRGY-2026-000018",
+      "address": "Purok 2, Rizal Avenue"
+    },
+    "created_at": "2026-10-03T03:31:41.600Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 156,
+  "fields": {
+    "event_type": "request:status-updated",
+    "actor": 1,
+    "payload": {
+      "requestId": "REQ-2026-916BEE79",
+      "previous": "pending",
+      "new": "completed"
+    },
+    "created_at": "2026-10-03T03:31:41.639Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 157,
+  "fields": {
+    "event_type": "cert:issued",
+    "actor": 1,
+    "payload": {
+      "event": "cert:issued",
+      "requestId": "REQ-2026-916BEE79",
+      "certNo": "CERT-90B287",
+      "type": "Barangay Clearance",
+      "purpose": "Employment",
+      "dateIssued": "2026-08-26",
+      "resident": "Maria Santos_aba239",
+      "classification": "Senior Citizen",
+      "address": "Purok 2, Rizal Avenue"
+    },
+    "created_at": "2026-10-03T03:31:41.677Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 158,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.712Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 159,
+  "fields": {
+    "event_type": "admin:official-added",
+    "actor": 1,
+    "payload": {
+      "officialId": 6,
+      "name": "Hon. Test Kagawad",
+      "position": "Barangay Kagawad"
+    },
+    "created_at": "2026-10-03T03:31:41.748Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 160,
+  "fields": {
+    "event_type": "admin:official-updated",
+    "actor": 1,
+    "payload": {
+      "officialId": "6",
+      "name": "Hon. Test Kagawad Updated"
+    },
+    "created_at": "2026-10-03T03:31:41.786Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 161,
+  "fields": {
+    "event_type": "admin:official-archived",
+    "actor": 1,
+    "payload": {
+      "officialId": "6"
+    },
+    "created_at": "2026-10-03T03:31:41.825Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 162,
+  "fields": {
+    "event_type": "admin:official-restored",
+    "actor": 1,
+    "payload": {
+      "officialId": "6"
+    },
+    "created_at": "2026-10-03T03:31:41.862Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 163,
+  "fields": {
+    "event_type": "admin:officials-reordered",
+    "actor": 1,
+    "payload": {
+      "count": 1
+    },
+    "created_at": "2026-10-03T03:31:41.900Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 164,
+  "fields": {
+    "event_type": "admin:official-deleted",
+    "actor": 1,
+    "payload": {
+      "officialId": "6"
+    },
+    "created_at": "2026-10-03T03:31:41.938Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 165,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:41.974Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 166,
+  "fields": {
+    "event_type": "admin:gallery-item-added",
+    "actor": 1,
+    "payload": {
+      "galleryId": 6,
+      "caption": "Automated Test Community Project"
+    },
+    "created_at": "2026-10-03T03:31:42.013Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 167,
+  "fields": {
+    "event_type": "admin:gallery-item-updated",
+    "actor": 1,
+    "payload": {
+      "galleryId": "6"
+    },
+    "created_at": "2026-10-03T03:31:42.052Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 168,
+  "fields": {
+    "event_type": "admin:gallery-item-archived",
+    "actor": 1,
+    "payload": {
+      "galleryId": "6"
+    },
+    "created_at": "2026-10-03T03:31:42.089Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 169,
+  "fields": {
+    "event_type": "admin:gallery-item-restored",
+    "actor": 1,
+    "payload": {
+      "galleryId": "6"
+    },
+    "created_at": "2026-10-03T03:31:42.126Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 170,
+  "fields": {
+    "event_type": "admin:gallery-item-deleted",
+    "actor": 1,
+    "payload": {
+      "galleryId": "6"
+    },
+    "created_at": "2026-10-03T03:31:42.162Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 171,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:42.196Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 172,
+  "fields": {
+    "event_type": "admin:website-settings-updated",
+    "actor": 1,
+    "payload": {
+      "welcome_badge": "Test Portal Badge 2026",
+      "welcome_title": "WELCOME TO OUR TEST COMMUNITY",
+      "welcome_subtitle": "Testing dynamic database driven mission statement",
+      "hero_overlay_opacity": 82,
+      "contact_address": "Test Street 123, Poblacion",
+      "contact_phone": "(02) 9999-8888",
+      "emergency_hotline": "911-TEST",
+      "btn_portal_label": "ENTER SYSTEM NOW"
+    },
+    "created_at": "2026-10-03T03:31:42.234Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 173,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:42.267Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 174,
+  "fields": {
+    "event_type": "resident:profile-photo-updated",
+    "actor": 5,
+    "payload": {
+      "path": "uploads/residents/residents_20260930_052530_f877559e.png"
+    },
+    "created_at": "2026-10-03T03:31:42.300Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 175,
+  "fields": {
+    "event_type": "resident:profile-photo-removed",
+    "actor": 5,
+    "payload": {},
+    "created_at": "2026-10-03T03:31:42.337Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 176,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 5,
+    "payload": {
+      "username": "resident"
+    },
+    "created_at": "2026-10-03T03:31:42.371Z"
+  }
+},
+{
+  "model": "bms.activitylog",
+  "pk": 177,
+  "fields": {
+    "event_type": "user:login",
+    "actor": 1,
+    "payload": {
+      "username": "admin"
+    },
+    "created_at": "2026-10-03T03:31:42.408Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "barangay_name",
+  "fields": {
+    "setting_value": "Barangay Poblacion",
+    "updated_at": "2026-10-03T03:31:42.512Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "barangay_secretary",
+  "fields": {
+    "setting_value": "",
+    "updated_at": "2026-10-03T03:31:42.604Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "btn_announcements_label",
+  "fields": {
+    "setting_value": "VIEW ANNOUNCEMENTS",
+    "updated_at": "2026-10-03T03:31:43.233Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "btn_portal_label",
+  "fields": {
+    "setting_value": "ENTER SYSTEM NOW",
+    "updated_at": "2026-10-03T03:31:43.172Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "btn_programs_label",
+  "fields": {
+    "setting_value": "COMMUNITY PROGRAMS",
+    "updated_at": "2026-10-03T03:31:43.263Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "btn_services_label",
+  "fields": {
+    "setting_value": "E-GOVERNMENT SERVICES",
+    "updated_at": "2026-10-03T03:31:43.203Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "contact_address",
+  "fields": {
+    "setting_value": "Test Street 123, Poblacion",
+    "updated_at": "2026-10-03T03:31:42.895Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "contact_email",
+  "fields": {
+    "setting_value": "info@barangaypoblacion.gov.ph",
+    "updated_at": "2026-10-03T03:31:42.957Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "contact_emergency",
+  "fields": {
+    "setting_value": "911-TEST",
+    "updated_at": "2026-10-03T03:31:43.017Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "contact_office_hours",
+  "fields": {
+    "setting_value": "Monday - Friday: 8:00 AM - 5:00 PM",
+    "updated_at": "2026-10-03T03:31:42.987Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "contact_phone",
+  "fields": {
+    "setting_value": "(02) 9999-8888",
+    "updated_at": "2026-10-03T03:31:42.925Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "contact_website",
+  "fields": {
+    "setting_value": "https://barangaypoblacion.gov.ph",
+    "updated_at": "2026-10-03T03:31:43.049Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "cp_drag_prevention",
+  "fields": {
+    "setting_value": "true",
+    "updated_at": "2026-10-03T03:31:43.480Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "cp_enabled",
+  "fields": {
+    "setting_value": "true",
+    "updated_at": "2026-10-03T03:31:43.293Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "cp_right_click_protection",
+  "fields": {
+    "setting_value": "true",
+    "updated_at": "2026-10-03T03:31:43.449Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "cp_watermark_enabled",
+  "fields": {
+    "setting_value": "true",
+    "updated_at": "2026-10-03T03:31:43.325Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "cp_watermark_opacity",
+  "fields": {
+    "setting_value": "0.30",
+    "updated_at": "2026-10-03T03:31:43.388Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "cp_watermark_position",
+  "fields": {
+    "setting_value": "bottom-right",
+    "updated_at": "2026-10-03T03:31:43.419Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "cp_watermark_text",
+  "fields": {
+    "setting_value": "OFFICIAL BARANGAY WEBSITE",
+    "updated_at": "2026-10-03T03:31:43.354Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "hero_image_focal_position",
+  "fields": {
+    "setting_value": "center",
+    "updated_at": "2026-10-03T03:31:42.663Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "hero_image_path",
+  "fields": {
+    "setting_value": "./assets/hero1.jpg",
+    "updated_at": "2026-10-03T03:31:42.634Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "hero_image_protected_path",
+  "fields": {
+    "setting_value": "",
+    "updated_at": "2026-10-03T03:31:42.721Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "hero_image_updated_at",
+  "fields": {
+    "setting_value": "2026-09-30T02:30:02.886988+00:00",
+    "updated_at": "2026-10-03T03:31:42.692Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "hero_overlay_opacity",
+  "fields": {
+    "setting_value": "82",
+    "updated_at": "2026-10-03T03:31:42.838Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "hero_visible",
+  "fields": {
+    "setting_value": "true",
+    "updated_at": "2026-10-03T03:31:42.867Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "municipality",
+  "fields": {
+    "setting_value": "City of Manila",
+    "updated_at": "2026-10-03T03:31:42.543Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "punong_barangay",
+  "fields": {
+    "setting_value": "",
+    "updated_at": "2026-10-03T03:31:42.573Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "resident_id_prefix",
+  "fields": {
+    "setting_value": "BRGY",
+    "updated_at": "2026-10-03T03:31:42.452Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "resident_id_sequence_length",
+  "fields": {
+    "setting_value": "6",
+    "updated_at": "2026-10-03T03:31:42.481Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "social_facebook",
+  "fields": {
+    "setting_value": "https://facebook.com/barangaypoblacion",
+    "updated_at": "2026-10-03T03:31:43.080Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "social_twitter",
+  "fields": {
+    "setting_value": "",
+    "updated_at": "2026-10-03T03:31:43.110Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "social_youtube",
+  "fields": {
+    "setting_value": "",
+    "updated_at": "2026-10-03T03:31:43.141Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "welcome_badge",
+  "fields": {
+    "setting_value": "Test Portal Badge 2026",
+    "updated_at": "2026-10-03T03:31:42.748Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "welcome_subtitle",
+  "fields": {
+    "setting_value": "Testing dynamic database driven mission statement",
+    "updated_at": "2026-10-03T03:31:42.808Z"
+  }
+},
+{
+  "model": "bms.systemsetting",
+  "pk": "welcome_title",
+  "fields": {
+    "setting_value": "WELCOME TO OUR TEST COMMUNITY",
+    "updated_at": "2026-10-03T03:31:42.777Z"
+  }
+}
+]
